@@ -20,12 +20,28 @@
             filter: blur(15px);
             z-index: -2;
         }
+        #srch{
+            background: yellow;
+            width: 20em;
+            height: 2.2em;
+            text-align: center;
+        }
+        #srch input{
+            width: 18em;
+            height: 2em;
+            border-radius: 5px;
+            border-color: #3f87a6;
+            float: right;
+        }
     </style>
     <script src="gradient.js"></script>
 </head>
 <body>
    <div class="container"></div>
-    <div class="contain">
+   <div id="srch">
+       Query: <input type="text" placeholder="Search..." id="srch">
+   </div>
+    <div>
        <!-- Go ahead Register --->
         <div>
             <section>
